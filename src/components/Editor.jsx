@@ -40,7 +40,7 @@ const {id:documentId} = useParams();
   console.log(documentId)
 
     useEffect(()=>{
-         const s=io("http://localhost:9000");
+         const s=io("https://backend-docs-ieqa.onrender.com/");
          
          setSocket(s);
          return()=>{
